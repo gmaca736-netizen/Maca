@@ -1,66 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ponte Bonita</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>Ponte Guapa</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#ffe4ec;
+}
+
+header{
+background:#e91e63;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#f06292;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+section{
+text-align:center;
+padding:20px;
+}
+
+.producto{
+display:inline-block;
+background:white;
+margin:10px;
+padding:10px;
+border-radius:10px;
+width:200px;
+}
+
+img{
+width:150px;
+}
+
+footer{
+background:#e91e63;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#products">Productos</a></li>
-                <li><a href="#gallery">Galería</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="hero">
-        <h1>Bienvenido a Ponte Bonita</h1>
-        <p>Tu tienda de decoración y arte.</p>
-    </section>
-    <section id="products">
-        <h2>Productos Destacados</h2>
-        <div class="product-list">
-            <div class="product-item">
-                <h3>Producto 1</h3>
-                <p>Descripción breve del producto 1.</p>
-            </div>
-            <div class="product-item">
-                <h3>Producto 2</h3>
-                <p>Descripción breve del producto 2.</p>
-            </div>
-            <div class="product-item">
-                <h3>Producto 3</h3>
-                <p>Descripción breve del producto 3.</p>
-            </div>
-        </div>
-    </section>
-    <section id="gallery">
-        <h2>Galería</h2>
-        <div class="gallery-images">
-            <img src="image1.jpg" alt="Descripción de la imagen 1">
-            <img src="image2.jpg" alt="Descripción de la imagen 2">
-            <img src="image3.jpg" alt="Descripción de la imagen 3">
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contacto</h2>
-        <form>
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2026 Ponte Bonita. Todos los derechos reservados.</p>
-    </footer>
+
+<header>
+<h1>Ponte Guapa</h1>
+<p>Tienda de maquillaje</p>
+</header>
+
+<section>
+
+<div class="producto">
+<img src="labial.jpg">
+<h3>Labial</h3>
+<p>$50</p>
+</div>
+
+<div class="producto">
+<img src="base.jpg">
+<h3>Base</h3>
+<p>$120</p>
+</div>
+
+<div class="producto">
+<img src="sombras.jpg">
+<h3>Sombras</h3>
+<p>$90</p>
+</div>
+
+</section>
+
+<footer>
+<p>© Ponte Guapa</p>
+</footer>
+
 </body>
 </html>
 

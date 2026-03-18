@@ -1,55 +1,130 @@
+# 💄 Ponte Bonita - Maquillaje Natural y Alcalino
 
-<DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>maca ponte bonita</title>
-<style>
-body{margin:0;font-family:Arial;background:#fff0f5}
-header{background:linear-gradient(90deg,#ff7eb3,#ffd1dc);padding:30px;text-aling:center;color:white}
-nav{background:#222;padding:12px;text-aling:center}
-nav a{color:withe;margin:15px;text-decoration:none;font-weight:bold}
-section{padding:40px}
-•titulo{color:#ff4f81}
-•productos{display:flex;flex-wrap:wrap;gap:20px}
-•card{background:white;border-radius:15px;padding:15px;width:200px;box-shadow:0 0 10px rgba(0,0,0,0,1)}
-button{background:#ff4f81;color:white;border:none;padding:10px;border-radius:10px}
-footer{background:#111;color:withe;text-align:center;padding:15px}
-</style>
-</head>
-<body>
+<div align="center">
 
-<header>
-<h1>ponte guapa</h1>
-<p>cosmetico de maquillaje natural y alcalino</p>
-</header>
+![Ponte Bonita Logo](https://via.placeholder.com/300x300?text=Ponte+Bonita+Logo)
 
-</nav>
-  <h2>Bienvenidos a ponte bonita</h2>
-  <p>Maquillaje alcalino, natural y saludable para tu piel</p>
-</section>
+**Cosméticos de maquillaje natural, alcalino y saludable para tu piel**
 
-<section id="producto">
-  <h2>productos</h2>
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-green.svg)](LICENSE)
+[![Estado](https://img.shields.io/badge/Estado-Activo-brightgreen.svg)]()
 
-<div class="producto">
-  <h3>labial mineral </h3>
-  <p>colores intensos sin químicos.</p>
 </div>
 
-<div class="producto">
-  <h3>sombras naturales</h3>
-  <p>ingredientes orgánicos.</p>
+---
+
+## 📋 Tabla de Contenidos
+
+- [Sobre Nosotros](#-sobre-nosotros)
+- [Productos](#-productos)
+- [Características](#-características)
+- [Instalación](#-instalación)
+- [Uso](#-uso)
+- [Contacto](#-contacto)
+
+---
+
+## 🌿 Sobre Nosotros
+
+**Ponte Bonita** es una marca de cosméticos comprometida con ofrecerte:
+
+- ✨ Maquillaje **100% natural**
+- 🌱 Ingredientes **ecológicos y orgánicos**
+- ⚖️ Fórmulas **alcalinas** para la salud de tu piel
+- 💚 **Cruelty-free** y sostenible
+
+Creemos que la belleza debe ser saludable para tu piel y respetuosa con el planeta.
+
+![Productos Naturales](https://via.placeholder.com/600x400?text=Productos+Naturales)
+
+---
+
+## 🛍️ Productos
+
+### 💋 Labial Mineral
+
+**Colores intensos sin químicos**
+
+- Tonalidades vibrantes y duraderas
+- Sin parabenos ni químicos sintéticos
+- Hidratante y nutritivo
+- Apto para todo tipo de piel
+
+![Labial Mineral](https://via.placeholder.com/300x300?text=Labial+Mineral)
+
+---
+
+### 👁️ Sombras Naturales
+
+**Ingredientes 100% orgánicos**
+
+- Pigmentos naturales de alta calidad
+- Fácil de aplicar y difuminar
+- Acabado mate o satinado
+- Larga duración
+
+![Sombras Naturales](https://via.placeholder.com/300x300?text=Sombras+Naturales)
+
+---
+
+## ✨ Características Principales
+
+| Característica | Detalle |
+|---|---|
+| 🌱 **Naturaleza** | Ingredientes 100% orgánicos |
+| ⚗️ **Alcalinidad** | pH balanceado para la salud |
+| 🚫 **Sin químicos** | Libre de parabenos y tóxicos |
+| 💚 **Sostenible** | Envasado ecológico |
+| 👍 **Dermatológicamente testeado** | Apto para pieles sensibles |
+
+---
+
+## 🚀 Instalación / Compra
+
+Para adquirir nuestros productos, puedes:
+
+1. Visitar nuestra tienda online en [pontebonita.com](https://pontebonita.com)
+2. Escribirnos a través del formulario de contacto
+3. Seguirnos en redes sociales para ofertas especiales
+
+---
+
+## 💡 Uso
+
+Nuestros productos son fáciles de usar:
+
+```
+1. Aplica una cantidad pequeña del producto
+2. Difumina suavemente con los dedos o con un pincel
+3. Ajusta la intensidad según tu preferencia
+4. Disfruta de un maquillaje natural y saludable
+```
+
+---
+
+## 📞 Contacto
+
+¿Tienes preguntas? ¡Nos encantaría saber de ti!
+
+| Canal | Información |
+|---|---|
+| 📧 **Email** | contacto@pontebonita.com |
+| 📱 **Teléfono** | +34 XXX XXX XXX |
+| 🌐 **Sitio Web** | www.pontebonita.com |
+| 📍 **Instagram** | @pontebonita |
+
+---
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+<div align="center">
+
+**© 2026 Ponte Bonita - Ponte Guapa, Ponte Saludable ✨**
+
+Hecho con ❤️ para tu belleza natural
+
 </div>
-
-</section id="contacto">
-  <h2>contacto</h2>
-  <p>Email: contacto@pontebonita.com</p>
-</section>
-
-<footer>
-  <p>€ 2026 ponte bonita</p>
-</footer>
-
-</body>
-</html>

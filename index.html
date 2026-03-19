@@ -12,50 +12,56 @@ font-family:Arial;
 background:#ffe4ec;
 }
 
+/* encabezado */
+
 header{
 background:#e91e63;
 color:white;
+text-align:center;
 padding:25px;
-text-align:center;
-font-size:35px;
 }
 
-h2{
-text-align:center;
-color:#e91e63;
+header h1{
+margin:0;
 }
 
-.galeria{
+/* productos */
+
+.contenedor{
 display:flex;
 flex-wrap:wrap;
 justify-content:center;
+padding:10px;
 }
 
 .producto{
 background:white;
-width:220px;
-margin:15px;
+width:200px;
+margin:10px;
 border-radius:15px;
-box-shadow:0 0 10px gray;
-padding:10px;
+box-shadow:0 0 8px gray;
 text-align:center;
+padding:10px;
+transition:0.3s;
+}
+
+.producto:hover{
+transform:scale(1.05);
 }
 
 .producto img{
-width:200px;
-height:200px;
+width:100%;
+height:150px;
 border-radius:10px;
 }
 
 .precio{
-color:green;
-font-size:18px;
-}
-
-.calidad{
 color:#e91e63;
+font-size:20px;
 font-weight:bold;
 }
+
+/* pie */
 
 footer{
 background:#e91e63;
@@ -66,58 +72,47 @@ margin-top:20px;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <header>
-Ponte Bonita 💄 Cosméticos
+<h1>Ponte Bonita</h1>
+<p>Maquillaje original y económico</p>
 </header>
 
-<h2>Productos disponibles</h2>
 
-<div class="galeria">
+<div class="contenedor">
 
 <div class="producto">
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Lipstick.jpg">
-<h3>Labial</h3>
+<img src="labial.jpg">
+<h3>Labial Matte</h3>
+<p class="precio">$50</p>
+</div>
+
+<div class="producto">
+<img src="base.jpg">
+<h3>Base líquida</h3>
 <p class="precio">$120</p>
-<p class="calidad">Alta calidad</p>
 </div>
 
 <div class="producto">
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Eye_shadow.jpg">
+<img src="rimel.jpg">
+<h3>Rímel</h3>
+<p class="precio">$80</p>
+</div>
+
+<div class="producto">
+<img src="sombras.jpg">
 <h3>Sombras</h3>
-<p class="precio">$180</p>
-<p class="calidad">Profesional</p>
-</div>
-
-<div class="producto">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Nail_polish.jpg">
-<h3>Esmalte</h3>
-<p class="precio">$90</p>
-<p class="calidad">Duración larga</p>
-</div>
-
-<div class="producto">
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Makeup_set.jpg">
-<h3>Kit maquillaje</h3>
-<p class="precio">$350</p>
-<p class="calidad">Calidad premium</p>
-</div>
-
-<div class="producto">
-<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Makeup_brushes.jpg">
-<h3>Brochas</h3>
-<p class="precio">$200</p>
-<p class="calidad">Profesional</p>
+<p class="precio">$150</p>
 </div>
 
 </div>
+
 
 <footer>
-Ponte Bonita | Maquillajes profesionales 💄
+Ponte Bonita © 2026
 </footer>
 
 </body>
